@@ -7,7 +7,7 @@ using System.Web;
 namespace BoxVolumeCalculaterWCF
 {
     [DataContract]
-    public class Claculator
+    public class Calculator
     {
         private double _length;
         [DataMember]
@@ -57,12 +57,12 @@ namespace BoxVolumeCalculaterWCF
             set { _volume = value; }
         }
 
-        public Claculator()
+        public Calculator()
         {
             
         }
 
-        public Claculator(double lenght, double width, double height)
+        public Calculator(double lenght, double width, double height)
         {
             this.Length = lenght;
             this.Width = width;

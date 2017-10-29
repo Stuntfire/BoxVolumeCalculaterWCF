@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace BoxVolumeCalculaterWCF.Tests
 {
     [TestClass()]
-    public class ClaculatorTests
+    public class CalculatorTests
     {
         [TestMethod()]
         public void ClaculatorTestVolume()
